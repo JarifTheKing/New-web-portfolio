@@ -10,10 +10,32 @@
 }
 /* Font Style */
 
+/* color style*/
+.primary-color{
+    color: #FD6E0A;
+}
+
+.btn-primary{  
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    
+    
+}
+.secondary-color{
+    color: #474747;
+}
+
 
 /* Nav styles */
 nav{
     display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
     
 }
 
@@ -22,13 +44,18 @@ font-weight: 800;
 font-size: 45px;
 }
 
-ul a{
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+    
+}
+
+nav ul li, a{
     text-decoration: none;
+    list-style: none;
+    margin-right: 50px;
     
     
 }
 
-/* primary-color */
-.primary-color{
-    color: #FD6E0A;
-}
