@@ -10,7 +10,12 @@
 }
 /* Font Style */
 
-/* color style*/
+/* sheard style*/
+
+.bg-secondary{
+background-color: #FFF8F3;
+}
+
 .primary-color{
     color: #FD6E0A;
 }
@@ -34,12 +39,26 @@
     font-size: 20px;
     padding: 15px 25px;
     border-radius: 10px;
+    
 }
 
 .secondary-color{
     color: #474747;
+    
 }
-/* color style*/
+
+.section-title{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.section-description{
+    color: #474747;
+    font-size: 18px;
+    font-weight: normal;
+}
+/* sheard style*/
 
 /* Header section */
 .header{
@@ -122,3 +141,47 @@ nav ul li, a{
     
     
 }
+
+/* Main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Main */
+/* ABOUT ME */
+.about-me-section{
+    /* border: 5px solid blue; */
+    border-radius: 10px;
+    margin: 130px auto;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.about-item{
+
+}
+.item-title{
+color: #474747;
+}
+.item-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-links li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.about-links ul li a{
+    
+    
+}
+/* ABOUT ME */
